@@ -10,8 +10,11 @@ namespace MyMvc5_1
 {
     public class MvcApplication : System.Web.HttpApplication
     {
+
         protected void Application_Start()
         {
+            System.Data.Entity.Database.SetInitializer(new MyMvc5_1.Models.MyDbInit());
+
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
