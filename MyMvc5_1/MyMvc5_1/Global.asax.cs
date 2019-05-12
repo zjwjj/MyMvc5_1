@@ -12,6 +12,10 @@ namespace MyMvc5_1
     {
         protected void Application_Start()
         {
+            //不进行添加初始数据
+            //System.Data.Entity.Database.SetInitializer(new MyMvc5_1.Models.MyDbInit());
+
+
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
