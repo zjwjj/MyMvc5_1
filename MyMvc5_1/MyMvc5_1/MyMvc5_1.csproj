@@ -249,6 +249,7 @@
     <Content Include="Views\Xueshengxinxis\Details.cshtml" />
     <Content Include="Views\Xueshengxinxis\Edit.cshtml" />
     <Content Include="Views\Xueshengxinxis\Index.cshtml" />
+    <Content Include="Views\Home\MyAction1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

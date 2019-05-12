@@ -26,5 +26,11 @@ namespace MyMvc5_1.Controllers
 
             return View();
         }
+        public ActionResult MyAction1()
+        {
+            ViewBag.Message = "这是自定义动作：MyAction1";
+            return View();
+        }
+
     }
 }
